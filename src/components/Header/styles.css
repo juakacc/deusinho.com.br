@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  background-color: var(--yellow-primary);
+  padding: 12px 0;
+}
+
+.header h1 {
+  padding-top: 20px;
+}
+
+.header h1 a {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--blue-primary);
+}
+
+.header nav ul {
+  text-align: right;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.header nav ul li a {
+  display: inline-block;
+  color: var(--blue-primary);
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.header nav ul li a:hover {
+  background-color: var(--green-primary);
+  color: var(--yellow-primary);
+}
