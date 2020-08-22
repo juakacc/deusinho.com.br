@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="71"
+   viewBox="0 0 52.916665 18.785417"
+   version="1.1"
+   id="svg562"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs556" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="114.00977"
+     inkscape:cy="30.304075"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata559">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-278.21457)">
+    <g
+       id="g589"
+       transform="matrix(0.03495702,0,0,0.03495702,22.283049,284.80926)">
+      <g
+         style="fill:#005da9;fill-opacity:1"
+         id="g48-3"
+         transform="matrix(8.0891705,0,0,8.0891705,-3597.3578,-353.23655)">
+        <path
+           d="M 401.86,46.8136 383.2597,46.5781 370.31,86.6042 h 48.2667 c 15.6999,-2.7045 23.7135,-12.7107 25.8993,-28.2537 1.4077,-16.4308 -5.3163,-27.1692 -17.4231,-34.14 8.2043,9.1946 10.5312,20.3483 3.5317,34.6108 -3.1325,5.8937 -8.4142,9.5036 -16.9523,9.6535 l -18.6003,0.2353 z"
+           style="fill:#005da9;fill-opacity:1;fill-rule:evenodd"
+           id="path24"
+           inkscape:connector-curvature="0" />
+        <path
+           d="m 365.911,20.5213 c 0.8352,8.9048 5.4572,15.5895 16.0901,18.7506 l 31.5466,0.1268 c 5.267,0.6136 9.0069,3.0603 10.8956,7.7282 4.6103,-9.215 0.7117,-23.6406 -14.063,-26.3522 z"
+           style="fill:#005da9;fill-opacity:1;fill-rule:evenodd"
+           id="path26-6"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         inkscape:export-ydpi="62.580002"
+         inkscape:export-xdpi="62.580002"
+         id="text1519-9-7"
+         y="344.285"
+         x="-31.087284"
+         style="font-style:normal;font-weight:normal;font-size:233.42947388px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#005da9;fill-opacity:1;stroke:none;stroke-width:5.83573675"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Geometria;-inkscape-font-specification:'Geometria Heavy';fill:#005da9;fill-opacity:1;stroke-width:5.83573675"
+           y="344.285"
+           x="-31.087284"
+           id="tspan1517-6-5"
+           sodipodi:role="line">eusinho</tspan></text>
+      <text
+         inkscape:export-ydpi="62"
+         inkscape:export-xdpi="62"
+         id="text2175-3"
+         y="51.456375"
+         x="130.62854"
+         style="font-style:normal;font-weight:normal;font-size:258.50637817px;line-height:0.69999999;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#005da9;fill-opacity:1;stroke:none;stroke-width:6.46265984"
+         xml:space="preserve"><tspan
+           id="tspan1280-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.69999999;font-family:Perfetto;-inkscape-font-specification:Perfetto;fill:#005da9;fill-opacity:1;stroke-width:6.46265984"
+           y="51.456375"
+           x="130.62854"
+           sodipodi:role="line">Blog do </tspan></text>
+    </g>
+  </g>
+</svg>

@@ -4,14 +4,8 @@
   padding: 12px 0;
 }
 
-.header h1 {
-  padding-top: 20px;
-}
-
-.header h1 a {
-  font-size: 20px;
-  font-weight: bold;
-  color: var(--blue-primary);
+.header .logo img {
+  height: 50px;
 }
 
 .header nav ul {
@@ -27,11 +21,32 @@
   display: inline-block;
   color: var(--blue-primary);
   font-size: 20px;
+  font-weight: bold;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 15px;
 }
 
 .header nav ul li a:hover {
-  background-color: var(--green-primary);
+  background-color: var(--blue-primary);
   color: var(--yellow-primary);
+}
+
+@media only screen and (max-width: 787px) {
+  .header {
+    padding-bottom: 0px;
+  }
+
+  .header .logo img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .header nav ul {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .header nav ul li {
+    margin-left: 0px;
+  }
 }
