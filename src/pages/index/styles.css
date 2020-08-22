@@ -1,0 +1,88 @@
+.introduction {
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.form-question label {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-question input, .form-question textarea {
+  width: 100%;
+  max-width: 100%;
+  border: 3px solid var(--blue-primary);
+  padding: 5px;
+  color: var(--blue-primary);
+}
+
+.form-question input:hover, .form-question textarea:hover {
+  border-color: var(--green-primary);
+}
+
+.form-question input:focus, .form-question textarea:focus {
+  outline: none;
+  border-color: var(--green-primary);
+}
+
+.form-question textarea {
+  height: 100px;
+}
+
+.form-image img {
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  padding: 5px 10px;
+  border: 3px solid var(--blue-primary);
+  color: var(--blue-primary);
+  font-weight: bold;
+  font-size: 1em;
+  background-color: white;
+}
+
+.btn:hover {
+  color: var(--green-primary);
+  border-color: var(--green-primary);
+}
+
+.sub-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: var(--blue-primary);
+}
+
+.sub-title::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin: 5px auto;
+  background-color: var(--blue-primary);
+}
+
+.redes-sociais p {
+  margin-bottom: 20px;
+}
+
+.redes-sociais ul li a img {
+  display: inline-block;
+  height: 40px;
+}
+
+.redes-sociais ul li a {
+  color: var(--blue-primary);
+  font-style: normal;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+}
+
+.redes-sociais ul li a:hover {
+  color: var(--green-primary);
+}

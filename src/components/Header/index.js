@@ -10,7 +10,7 @@ function Header() {
           <a href="/">Blog do Deusinho</a>
         </h1>
 
-        <nav className="grid-10">
+        <nav className="grid-10 menus">
           <ul>
             <li><a href="/sobre-mim">Sobre mim</a></li>
             <li><a href="/pergunte">Pergunte</a></li>
