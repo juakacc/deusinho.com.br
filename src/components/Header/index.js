@@ -15,7 +15,7 @@ function Header() {
         <nav className="grid-12 menus">
           <ul>
             <li><a href="/sobre-mim">Sobre mim</a></li>
-            <li><a href="/pergunte">Pergunte</a></li>
+            <li><a href="/#askme">Pergunte</a></li>
           </ul>
         </nav>
       </div>

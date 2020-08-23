@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container ask">
+      <div className="container ask" id="askme">
         <h2 className="sub-title">Pergunte ao Deusinho</h2>
         <p>Não deixe de perguntar, vou tentar responder o mais rápido possível.</p>
 
