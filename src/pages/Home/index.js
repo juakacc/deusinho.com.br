@@ -1,5 +1,6 @@
 import React from 'react';
 
+import PerfilDeusinho from '../../img/perfil_deusinho.jpg';
 import Facebook from '../../img/social/facebook.svg';
 import Instagram from '../../img/social/instagram.svg';
 import YouTube from '../../img/social/youtube.svg';
@@ -18,15 +19,29 @@ import Question from '../../components/Question';
 export default function Home() {
   return (
     <PageDefault>
-      <div className="container">
-        <div className="introduction">
-          <p>Seja bem-vindo ao meu Blog, é um enorme prazer tê-lo aqui.</p>
-          <p>Este é um espaço livre para você expressar a sua opinião.</p>
-          <p>Conheça um pouco sobre mim, vamos juntos debater ideias.</p>
+      <div className="introduction">
+        <div className="container">
+          <div className="grid-6 profile-photo">
+            <img src={PerfilDeusinho} alt="Foto do Deusinho" />
+          </div>
+          <div className="grid-10">
+            <h1>Oi, eu sou o Deusinho!</h1>
+            <p>
+              Seja bem-vindo ao meu Blog, é um enorme prazer tê-lo aqui.
+              Este é um espaço livre para você expressar a sua opinião.
+            </p>
+            <p>Conheça um pouco sobre mim, vamos juntos debater ideias.</p>
+            <p>
+              Sou um orgulhoso filho olivedense. Fui vereador por 4 mandatos,
+              sempre elaborando discussões para o bem estar da população. Atualmente
+              sou prefeito do nosso amado município, mantendo sempre o lema do trabalho
+              buscando ajudar os que mais necessitam.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div className="container">
+      <div className="container ask">
         <h2 className="sub-title">Pergunte ao Deusinho</h2>
         <p>Não deixe de perguntar, vou tentar responder o mais rápido possível.</p>
 
@@ -45,7 +60,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container">
+      <div className="container answers">
         <h2 className="sub-title">Perguntas já respondidas</h2>
         <p>Perguntas de outras pessoas que já foram respondidas, pode ser que te ajude.</p>
 

@@ -1,6 +1,49 @@
 .introduction {
-  margin-top: 20px;
+  padding: 20px 0;
   line-height: 30px;
+  background-color: var(--blue-primary);
+}
+
+.introduction .profile-photo img {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.introduction h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.introduction p {
+  font-size: 1em;
+  line-height: 25px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 787px) {
+  .introduction p {
+    margin-left: 0;
+  } 
+
+  .form-image img {
+    max-height: 100px;
+    margin: 0 auto;
+  }
+}
+
+.form-question {
+  margin: 10px 0;
+}
+
+.ask p, .answers p, .redes-sociais p {
+  font-size: 1em;
+  line-height: 25px;
 }
 
 .form-question label {
@@ -66,8 +109,8 @@
   background-color: var(--blue-primary);
 }
 
-.redes-sociais p {
-  margin-bottom: 20px;
+.redes-sociais ul {
+  margin-top: 20px;
 }
 
 .redes-sociais ul li a img {
