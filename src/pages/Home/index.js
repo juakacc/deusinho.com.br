@@ -8,17 +8,13 @@ import YouTube from '../../img/social/youtube.svg';
 import PageDefault from '../../components/PageDefault';
 import QuestionsImg from '../../img/perguntas-frequentes.svg';
 
-import '../../css/normalize.css';
-import '../../css/reset.css';
-import '../../css/grid.css';
-import '../../css/styles.css';
-
 import './styles.css';
 import Question from '../../components/Question';
 
 export default function Home() {
   return (
     <PageDefault>
+      <div className="home-cover" />
       <div className="introduction">
         <div className="container">
           <div className="grid-6 profile-photo">

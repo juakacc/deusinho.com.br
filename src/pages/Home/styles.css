@@ -1,3 +1,9 @@
+.home-cover {
+  height: 250px;
+  background: url('../../img/capa1.png') no-repeat center;
+  background-size: cover;
+}
+
 .introduction {
   padding: 20px 0;
   line-height: 30px;

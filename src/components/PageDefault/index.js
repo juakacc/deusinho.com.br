@@ -4,6 +4,11 @@ import PropTypes from 'prop-types';
 import Header from '../Header';
 import Footer from '../Footer';
 
+import '../../css/normalize.css';
+import '../../css/reset.css';
+import '../../css/grid.css';
+import '../../css/styles.css';
+
 function PageDefault({ children }) {
   return (
     <div>

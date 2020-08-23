@@ -23,3 +23,7 @@
   margin: 5px auto;
   background-color: var(--blue-primary);
 }
+
+p {
+  line-height: 25px;
+}

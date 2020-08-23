@@ -2,10 +2,6 @@ import React from 'react';
 
 import PageDefault from '../../components/PageDefault';
 
-import '../../css/normalize.css';
-import '../../css/reset.css';
-import '../../css/grid.css';
-import '../../css/styles.css';
 import './styles.css';
 
 import NotFoundImage from '../../img/404.svg';
