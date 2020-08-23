@@ -93,22 +93,6 @@
   border-color: var(--green-primary);
 }
 
-.sub-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0;
-  color: var(--blue-primary);
-}
-
-.sub-title::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 3px;
-  margin: 5px auto;
-  background-color: var(--blue-primary);
-}
-
 .redes-sociais ul {
   margin-top: 20px;
 }

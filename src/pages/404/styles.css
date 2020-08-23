@@ -1,0 +1,24 @@
+.not-found {
+  padding-top: 20px;
+}
+
+.not-found .sub-title {
+  margin-bottom: 20px;
+}
+
+.not-found p {
+  font-size: 1em;
+  line-height: 25px;
+}
+
+.not-found img {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 787px) {
+  .not-found img {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
