@@ -12,7 +12,7 @@ module.exports = {
     description:
       'Blog do Deusinho, saiba mais sobre mim, interaja comigo',
     url: 'https://deusinho.com.br', // No trailing slash allowed!
-    image: '/images/perfil_deusinho.jpg', // Path to your image you placed in the 'static' folder
+    image: '/perfil_deusinho.jpg', // Path to your image you placed in the 'static' folder
     // twitterUsername: '@occlumency',
   },
   plugins: ['gatsby-plugin-react-helmet'],
