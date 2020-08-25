@@ -10,6 +10,9 @@ import '../../css/grid.css';
 import '../../css/styles.css';
 import SEO from '../seo';
 
+require('typeface-rubik');
+require('typeface-roboto');
+
 function PageDefault({ children }) {
   return (
     <div>

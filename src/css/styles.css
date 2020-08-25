@@ -24,6 +24,10 @@
   background-color: var(--blue-primary);
 }
 
+body {
+  font: 400 18px Rubik, sans-serif;
+}
+
 p {
   line-height: 25px;
 }
