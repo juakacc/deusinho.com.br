@@ -3,3 +3,11 @@
   background: url('../../img/capa3.png') no-repeat center;
   background-size: cover;
 }
+
+@media only screen and (max-width: 787px) {
+  .plane-cover {
+    /* height: 200px; */
+    background: url('../../img/capa3-mobile.png') no-repeat center;
+    background-size: cover;
+  } 
+}

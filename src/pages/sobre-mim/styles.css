@@ -12,3 +12,10 @@
   text-transform: uppercase;
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 787px) {
+  .about-cover {
+    background: url('../../img/capa2-mobile.png') no-repeat center;
+    background-size: cover;
+  }
+}

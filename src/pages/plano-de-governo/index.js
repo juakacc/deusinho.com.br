@@ -1,4 +1,5 @@
 import React from 'react';
+
 import PageDefault from '../../components/PageDefault';
 
 import './styles.css';

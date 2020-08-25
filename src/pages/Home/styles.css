@@ -33,6 +33,11 @@
 }
 
 @media only screen and (max-width: 787px) {
+  .home-cover {
+    background: url('../../img/capa1-mobile.png') no-repeat center;
+    background-size: cover;
+  }
+
   .introduction p {
     margin-left: 0;
   } 
