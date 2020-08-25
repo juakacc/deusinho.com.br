@@ -8,10 +8,12 @@ import '../../css/normalize.css';
 import '../../css/reset.css';
 import '../../css/grid.css';
 import '../../css/styles.css';
+import SEO from '../seo';
 
 function PageDefault({ children }) {
   return (
     <div>
+      <SEO />
       <Header />
       { children }
       <Footer />
