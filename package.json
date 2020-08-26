@@ -1,7 +1,6 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "name": "blog-do-deusinho",
+  "description": "Um blog para divulgação de assuntos relacionados ao Deusinho",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -10,8 +9,7 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@reach/router": "^1.3.4",
@@ -34,11 +32,14 @@
     "gatsby-cli": "^2.12.83",
     "prettier": "2.0.5"
   },
+  "keywords": ["deusinho", "olivedos", "eleições"],
+  "author": "Joaquim Aníbal Rocha Neto",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/juakacc/deusinho.com.br"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+    "url": "https://github.com/juakacc/deusinho.com.br/issues"
+  },
+  "homepage": "https://deusinho.com.br"
 }
