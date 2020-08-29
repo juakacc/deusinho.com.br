@@ -10,7 +10,7 @@ function Question({
     <li className="grid-8 question" key={id}>
       <p>
         <span className="question-author">
-          {author}
+          {author !== '' ? author : 'Anônimo(a)'}
           {' '}
         </span>
         perguntou há
