@@ -7,9 +7,9 @@ import YouTube from '../../img/social/youtube.svg';
 
 import PageDefault from '../../components/PageDefault';
 import QuestionsImg from '../../img/perguntas-frequentes.svg';
+import Responses from '../../components/Responses';
 
 import './styles.css';
-import Question from '../../components/Question';
 
 export default function Home() {
   return (
@@ -56,17 +56,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container answers">
-        <h2 className="sub-title">Perguntas já respondidas</h2>
-        <p>Perguntas de outras pessoas que já foram respondidas, pode ser que te ajude.</p>
-
-        <ul>
-          <Question />
-          <Question />
-          <Question />
-          <Question />
-        </ul>
-      </div>
+      <Responses />
 
       <div className="container redes-sociais">
         <h2 className="sub-title">Deusinho nas Redes Sociais</h2>

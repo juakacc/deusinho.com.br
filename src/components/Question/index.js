@@ -1,18 +1,38 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import './styles.css';
 
-function Question() {
+function Question({
+  id, author, createdAd, question, reply,
+}) {
   return (
-    <li className="grid-8 question">
+    <li className="grid-8 question" key={id}>
       <p>
-        <span className="question-author">Joaquim Aníbal </span>
-        perguntou há 13 horas atrás
+        <span className="question-author">
+          {author}
+          {' '}
+        </span>
+        perguntou há
+        {' '}
+        {createdAd}
       </p>
-      <p className="question-question">Deusinho o que você pretende fazer pela saúde?</p>
-      <p className="question-answer">Opa Joaquim, pretendo continuar investindo fortemente na saúde</p>
+      <p className="question-question">{question}</p>
+      <p className="question-answer">{reply}</p>
     </li>
   );
 }
+
+Question.defaultProps = {
+  reply: '',
+};
+
+Question.propTypes = {
+  id: PropTypes.number.isRequired,
+  author: PropTypes.string.isRequired,
+  createdAd: PropTypes.string.isRequired,
+  question: PropTypes.string.isRequired,
+  reply: PropTypes.string,
+};
 
 export default Question;
