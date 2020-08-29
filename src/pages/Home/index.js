@@ -10,6 +10,7 @@ import QuestionsImg from '../../img/perguntas-frequentes.svg';
 import Responses from '../../components/Responses';
 
 import './styles.css';
+import AskForm from '../../components/AskForm';
 
 export default function Home() {
   return (
@@ -41,15 +42,7 @@ export default function Home() {
         <h2 className="sub-title">Pergunte ao Deusinho</h2>
         <p>Não deixe de perguntar, vou tentar responder o mais rápido possível.</p>
 
-        <form method="post" className="form-question grid-8">
-          <label htmlFor="name">Nome</label>
-          <input type="text" id="name" />
-
-          <label htmlFor="question">Sua pergunta *</label>
-          <textarea id="question" />
-
-          <button type="submit" className="btn">Perguntar</button>
-        </form>
+        <AskForm />
 
         <div className="grid-8 form-image">
           <img src={QuestionsImg} alt="Balões de diálogo" />
