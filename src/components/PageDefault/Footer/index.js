@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Facebook from '../../img/social/facebook.svg';
-import Instagram from '../../img/social/instagram.svg';
-import YouTube from '../../img/social/youtube.svg';
-import Whatsapp from '../../img/social/whatsapp.svg';
+import Facebook from '../../../img/social/facebook.svg';
+import Instagram from '../../../img/social/instagram.svg';
+import YouTube from '../../../img/social/youtube.svg';
+import Whatsapp from '../../../img/social/whatsapp.svg';
 
 import './styles.css';
 
@@ -13,7 +13,7 @@ function Footer() {
       <div className="container">
         <div className="grid-8">
           <h3 className="footer-sub-title">Fale com o Deusinho</h3>
-          <a href="https://api.whatsapp.com/send?phone=5583994005530" target="_blank" className="whats">
+          <a href="https://api.whatsapp.com/send?phone=5583994005530" target="_blank" className="whats" rel="noreferrer">
             <img src={Whatsapp} alt="Link para o Whatsapp" />
           </a>
         </div>

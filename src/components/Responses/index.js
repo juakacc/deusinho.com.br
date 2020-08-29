@@ -2,7 +2,7 @@ import React from 'react';
 import gql from 'graphql-tag';
 import { useQuery } from '@apollo/client';
 
-import Question from '../Question';
+import Question from './Question';
 
 const QUERY_QUESTIONS = gql`
   {
