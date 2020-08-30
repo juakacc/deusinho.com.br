@@ -1,9 +1,11 @@
+const { apiUrl } = require('./config');
+
 module.exports = {
   siteMetadata: {
     title: 'Blog do Deusinho',
-    titleTemplate: '%s · The Real Hero',
+    titleTemplate: '· %s ·',
     description:
-      'Blog do Deusinho, saiba mais sobre mim, interaja comigo',
+      'Blog do Deusinho, saiba mais sobre mim, conheça minhas ideias, interaja comigo!',
     url: 'https://deusinho.com.br',
     image: '/perfil_deusinho.jpg',
     // twitterUsername: '@occlumency',
@@ -14,7 +16,7 @@ module.exports = {
       options: {
         typeName: 'SWAPI',
         fieldName: 'swapi',
-        url: 'http://localhost:4000',
+        url: apiUrl,
         refetchInterval: 60,
       },
     }],
