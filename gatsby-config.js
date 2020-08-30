@@ -1,5 +1,3 @@
-const { apiUrl } = require('./config');
-
 module.exports = {
   siteMetadata: {
     title: 'Blog do Deusinho',
@@ -10,14 +8,5 @@ module.exports = {
     image: '/perfil_deusinho.jpg',
     // twitterUsername: '@occlumency',
   },
-  plugins: ['gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-source-graphql',
-      options: {
-        typeName: 'SWAPI',
-        fieldName: 'swapi',
-        url: apiUrl,
-        refetchInterval: 60,
-      },
-    }],
+  plugins: ['gatsby-plugin-react-helmet'],
 };
