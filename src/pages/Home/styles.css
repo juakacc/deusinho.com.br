@@ -57,51 +57,10 @@
   line-height: 25px;
 }
 
-.form-question label {
-  display: block;
-  margin: 10px 0;
-}
-
-.form-question input, .form-question textarea {
-  width: 100%;
-  max-width: 100%;
-  border: 3px solid var(--blue-primary);
-  padding: 5px;
-  color: var(--blue-primary);
-}
-
-.form-question input:hover, .form-question textarea:hover {
-  border-color: var(--green-primary);
-}
-
-.form-question input:focus, .form-question textarea:focus {
-  outline: none;
-  border-color: var(--green-primary);
-}
-
-.form-question textarea {
-  height: 100px;
-}
-
 .form-image img {
   height: 250px;
   display: block;
   margin: 0 auto;
-}
-
-.btn {
-  display: block;
-  padding: 5px 10px;
-  border: 3px solid var(--blue-primary);
-  color: var(--blue-primary);
-  font-weight: bold;
-  font-size: 1em;
-  background-color: white;
-}
-
-.btn:hover {
-  color: var(--green-primary);
-  border-color: var(--green-primary);
 }
 
 .redes-sociais ul {
