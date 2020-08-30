@@ -4,6 +4,8 @@ import { useQuery } from '@apollo/client';
 
 import Question from './Question';
 
+import './styles.css';
+
 const QUERY_QUESTIONS = gql`
   {
     questions {
@@ -23,23 +25,27 @@ const Responses = () => {
       <h2 className="sub-title">Perguntas já respondidas</h2>
       <p>Perguntas de outras pessoas que já foram respondidas, pode ser que te ajude.</p>
 
-      {loading && <p>Loading...</p>}
-      {error && <p>Ocorreu um erro ao requisitar as questões, tente novamente mais tarde!</p>}
+      {loading && <p className="without-question">Carregando perguntas...</p>}
+      {error && <p className="without-question">Erro ao requisitar as perguntas, tente novamente mais tarde!</p>}
 
       {data && data.questions && (
-        <ul>
-          {data.questions.map(({
-            author, createdAt, question, id, reply,
-          }) => (
-            <Question
-              id={id}
-              author={author}
-              createdAd={createdAt}
-              question={question}
-              reply={reply}
-            />
-          ))}
-        </ul>
+        data.questions.length > 0 ? (
+          <ul>
+            {data.questions.map(({
+              author, createdAt, question, id, reply,
+            }) => (
+              <Question
+                id={id}
+                author={author}
+                createdAd={createdAt}
+                question={question}
+                reply={reply}
+              />
+            ))}
+          </ul>
+        ) : (
+          <p className="without-question">Nenhuma pergunta registrada, seja o primeiro a perguntar!</p>
+        )
       )}
     </div>
   );
