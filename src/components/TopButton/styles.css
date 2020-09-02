@@ -1,0 +1,10 @@
+.top-button {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.top-button button {
+  background-color: var(--yellow-primary)
+}
