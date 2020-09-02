@@ -42,7 +42,7 @@ const AskForm = () => {
   return (
     <div className="grid-8">
       { !success ? (
-        <form method="post" className="form-question" onSubmit={handleSubmit}>
+        <form method="post" className="form-question form-default" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Nome</label>
             <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} />
