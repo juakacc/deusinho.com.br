@@ -40,6 +40,7 @@ const Responses = () => {
                 createdAd={createdAt}
                 question={question}
                 reply={reply}
+                key={id}
               />
             ))}
           </ul>

@@ -28,7 +28,7 @@ Question.defaultProps = {
 };
 
 Question.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
   createdAd: PropTypes.string.isRequired,
   question: PropTypes.string.isRequired,
