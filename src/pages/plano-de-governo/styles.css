@@ -6,8 +6,24 @@
 
 @media only screen and (max-width: 787px) {
   .plane-cover {
-    /* height: 200px; */
     background: url('../../img/capa3-mobile.png') no-repeat center;
     background-size: cover;
   } 
+}
+
+.plan p {
+  margin-bottom: 15px;
+}
+
+.plan h3 {
+  font-size: 20px;
+}
+
+.form-submit-plan {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.form-submit-plan p {
+  margin-bottom: 10px;
 }
