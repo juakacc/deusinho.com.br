@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
+import { Link } from 'gatsby';
 import gql from 'graphql-tag';
 
 import PageDefault from '../../components/PageDefault';
@@ -100,7 +101,7 @@ function PlanoDeGoverno() {
                 Sugestão enviada com sucesso, 
                 muito obrigado pela contribuição para uma Olivêdos melhor!
               </p>
-              <a href="/plano-de-governo" className="btn">Enviar outra sugestão</a>
+              <Link to="/plano-de-governo" className="btn">Enviar outra sugestão</Link>
             </div>
           )}
         </div>

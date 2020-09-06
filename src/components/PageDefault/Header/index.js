@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Logo from '../../../img/logo.svg';
 
@@ -8,15 +9,15 @@ function Header() {
   return (
     <header className="header">
       <div className="container">
-        <a href="/" className="grid-3 logo">
+        <Link to="/" className="grid-3 logo">
           <img src={Logo} alt="Logo do Deusinho" />
-        </a>
+        </Link>
 
         <nav className="grid-13 menus">
           <ul>
-            <li><a href="/sobre-mim">Sobre mim</a></li>
-            <li><a href="/#askme">Pergunte</a></li>
-            <li><a href="/plano-de-governo">Plano de Governo</a></li>
+            <li><Link to="/sobre-mim">Sobre mim</Link></li>
+            <li><Link to="/#askme">Pergunte</Link></li>
+            <li><Link to="/plano-de-governo">Plano de Governo</Link></li>
           </ul>
         </nav>
       </div>

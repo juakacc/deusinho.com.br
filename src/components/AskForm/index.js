@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'gatsby';
 import gql from 'graphql-tag';
 import { useMutation } from '@apollo/client';
 
@@ -58,7 +59,7 @@ const AskForm = () => {
       ) : (
         <div className="form-submit">
           <p>Pergunta enviada com sucesso, em breve ela será respondida, obrigado!</p>
-          <a href="/" className="btn">Fazer outra pergunta</a>
+          <Link href="/" className="btn">Fazer outra pergunta</Link>
         </div>
       )}
     </div>

@@ -6,5 +6,6 @@
 }
 
 .top-button button {
-  background-color: var(--yellow-primary)
+  background-color: var(--yellow-primary);
+  padding: 10px 20px;
 }
